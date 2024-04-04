@@ -13,7 +13,6 @@ const Cardlist = (data) => {
 ${data.map((imgData) => cardListItem(imgData).join(""))}
 </ul>
 
-
   </section>
   `;
 };
