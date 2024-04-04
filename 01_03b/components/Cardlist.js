@@ -1,7 +1,7 @@
 import Card from "./Card.js";
 const cardListItem = (imgData) => {
   return `
-  <li class="cardlist_item>
+  <li class="cardlist__item>
 ${card(imgData)}
   </li>
   `;
@@ -9,8 +9,8 @@ ${card(imgData)}
 const Cardlist = (data) => {
   return `
   <section class="cardlist">
-<ul class="cardlist_list">
-${data.map((imgData) => cardListItem(imgData).join(""))}
+<ul class="cardlist__list">
+${data.map((imgData) => cardListItem(imgData)).join("")}
 </ul>
 
   </section>
