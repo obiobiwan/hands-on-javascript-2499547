@@ -6,8 +6,8 @@
  */
 
 import data from "./data.js";
-import Card from "./components/Card.js";
+import Cardlist from "./components/Cardlist";
 
 const mainContent = document.querySelector(".main-content");
 
-mainContent.innerHTML = Card(data);
+mainContent.innerHTML = Cardlist(data);
